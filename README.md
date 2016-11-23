@@ -1,0 +1,1 @@
+# information-management-awareness-raising-log
