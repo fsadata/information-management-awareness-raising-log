@@ -1,0 +1,29 @@
+{
+	"fields": [
+		{
+			"name": "Date",
+			"title": "Date of activity",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+"datePattern": "%b-%y"
+			}
+		},
+		{
+			"name": "Subject",
+			"title": "Description of raised subject",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		},
+		{
+			"name": "Channel",
+			"title": "Channel the subject was raised",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#string"
+			}
+		}
+	]
+}
